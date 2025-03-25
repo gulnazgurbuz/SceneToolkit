@@ -1,0 +1,12 @@
+{
+  "name": "factory-pattern",
+  "displayName": "Factory Pattern",
+  "author": {
+    "name": "Gulnaz Gurbuz"
+  },
+  "version": "0.0.1",
+  "unity": "6000.0",
+  "description": "FactoryPattern",
+  "dependencies": {
+  }
+}
