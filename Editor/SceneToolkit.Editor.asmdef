@@ -1,6 +1,6 @@
 {
-  "name": "SuperDuck.SceneToolkit.Editor",
-  "rootNamespace": "SuperDuck",
+  "name": "SceneToolkit.Editor",
+  "rootNamespace": "SceneToolkit",
   "references": [
   ],
   "includePlatforms": [

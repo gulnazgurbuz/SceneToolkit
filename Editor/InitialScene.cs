@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-namespace SuperDuck.SceneToolkit {
+namespace SceneToolkit.Editor {
 	
 	[InitializeOnLoad]
 	public class InitialScene : SettingsProvider {
@@ -29,7 +29,7 @@ namespace SuperDuck.SceneToolkit {
 
 		[SettingsProvider]
 		public static SettingsProvider AutoSceneProvider() {
-			var provider = new InitialScene("Project/SuperDuck/Auto Scene", SettingsScope.Project);
+			var provider = new InitialScene("Project/SceneToolkit/Auto Scene", SettingsScope.Project);
 			return provider;
 		}
 		public InitialScene(string path, SettingsScope scopes, IEnumerable<string> keywords = null) : base(path, scopes, keywords) { }
